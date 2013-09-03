@@ -4,9 +4,9 @@ use Test::More;
 use Plack::Test;
 use HTTP::Request::Common;
 use URI;
-use Voson::Core;
+use Nephia::Core;
 
-my $v = Voson::Core->new(
+my $v = Nephia::Core->new(
     plugins => ['FillInForm'],
     app => sub {
         my $path   = req()->path;

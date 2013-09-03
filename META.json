@@ -1,10 +1,10 @@
 {
-   "abstract" : "A plugin for Voson that provides fill-in-form feature",
+   "abstract" : "A plugin for Nephia that provides fill-in-form feature",
    "author" : [
       "ytnobody <ytnobody@gmail.com>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Minilla/v0.6.3, CPAN::Meta::Converter version 2.130880",
+   "generated_by" : "Minilla/v0.6.3, CPAN::Meta::Converter version 2.132140",
    "license" : [
       "perl_5"
    ],
@@ -12,7 +12,7 @@
       "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
       "version" : "2"
    },
-   "name" : "Voson-Plugin-FillInForm",
+   "name" : "Nephia-Plugin-FillInForm",
    "no_index" : {
       "directory" : [
          "t",
@@ -43,7 +43,7 @@
       "runtime" : {
          "requires" : {
             "HTML::FillInForm" : "0",
-            "Voson" : "0",
+            "Nephia" : "0",
             "perl" : "5.008005"
          }
       },
@@ -54,5 +54,16 @@
       }
    },
    "release_status" : "unstable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/ytnobody/Nephia-Plugin-FillInForm/issues"
+      },
+      "homepage" : "https://github.com/ytnobody/Nephia-Plugin-FillInForm",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/ytnobody/Nephia-Plugin-FillInForm.git",
+         "web" : "https://github.com/ytnobody/Nephia-Plugin-FillInForm"
+      }
+   },
    "version" : "0.01"
 }

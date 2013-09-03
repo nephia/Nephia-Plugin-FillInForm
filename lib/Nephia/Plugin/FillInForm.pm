@@ -1,8 +1,8 @@
-package Voson::Plugin::FillInForm;
+package Nephia::Plugin::FillInForm;
 use 5.008005;
 use strict;
 use warnings;
-use parent 'Voson::Plugin';
+use parent 'Nephia::Plugin';
 use HTML::FillInForm;
 
 our $VERSION = "0.01";
@@ -48,11 +48,11 @@ __END__
 
 =head1 NAME
 
-Voson::Plugin::FillInForm - A plugin for Voson that provides fill-in-form feature
+Nephia::Plugin::FillInForm - A plugin for Nephia that provides fill-in-form feature
 
 =head1 SYNOPSIS
 
-    use Voson plugins => [
+    use Nephia plugins => [
         'FillInForm',
         'View::MicroTemplate' => { ... },
     ];
@@ -64,7 +64,7 @@ Voson::Plugin::FillInForm - A plugin for Voson that provides fill-in-form featur
 
 =head1 DESCRIPTION
 
-Voson::Plugin::FillInForm provides fill-in-form feature.
+Nephia::Plugin::FillInForm provides fill-in-form feature.
 
 =head1 DSL
 
