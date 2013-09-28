@@ -5,7 +5,7 @@ use warnings;
 use parent 'Nephia::Plugin';
 use HTML::FillInForm;
 
-our $VERSION = "0.01";
+our $VERSION = "0.20";
 
 sub new {
     my ($class, %opts) = @_;
